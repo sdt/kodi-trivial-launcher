@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.trivial.launcher" name="Trivial Launcher" version="0.0.1" provider-name="Stephen Thirlwall">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Launch an external command</summary>
+        <language></language>
+        <description lang="en">Launch an external command</description>
+        <license></license>
+        <source></source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
